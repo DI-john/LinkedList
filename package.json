@@ -1,0 +1,31 @@
+{
+  "name": "linked_list",
+  "version": "1.0.0",
+  "description": "A circular, doubly-linked list with some helpful methods",
+  "source": "src/linkedList.js",
+  "main": "dist/linkedList.cjs",
+  "module": "dist/linkedList.mjs",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "pretest": "npm run build",
+    "test": "nodemon --exec jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DI-john/LinkedList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DI-john/LinkedList/issues"
+  },
+  "homepage": "https://github.com/DI-john/LinkedList#readme",
+  "devDependencies": {
+    "jasmine": "^4.0.2",
+    "jasmine-spec-reporter": "^7.0.0",
+    "nodemon": "^2.0.15",
+    "parcel": "^2.3.2"
+  }
+}
