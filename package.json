@@ -9,7 +9,9 @@
     "watch": "parcel watch",
     "build": "parcel build",
     "pretest": "npm run build",
-    "test": "nodemon --exec jasmine"
+    "test": "jasmine",
+    "pretestwatch": "npm run build",
+    "testwatch": "nodemon --exec jasmine"
   },
   "repository": {
     "type": "git",
